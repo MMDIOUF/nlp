@@ -1,0 +1,12 @@
+{
+  "model": "CRF linéaire",
+  "algorithm": "lbfgs",
+  "c1": 0.05,
+  "c2": 0.2,
+  "max_iterations": 100,
+  "all_possible_transitions": true,
+  "test_precision": 0.774869109947644,
+  "test_recall": 0.578125,
+  "test_f1": 0.6621923937360178,
+  "test_report": "              precision    recall  f1-score   support\n\n        DATE     0.5238    0.1571    0.2418        70\n         LOC     0.8859    0.7725    0.8253       211\n         ORG     0.6129    0.3455    0.4419        55\n         PER     0.7055    0.5852    0.6398       176\n\n   micro avg     0.7749    0.5781    0.6622       512\n   macro avg     0.6820    0.4651    0.5372       512\nweighted avg     0.7450    0.5781    0.6406       512\n"
+}
