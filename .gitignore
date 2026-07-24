@@ -1,0 +1,8 @@
+*
+!.gitignore
+!app.py
+!requirements.txt
+!src/
+!src/*.py
+!models/
+!models/crf_wolof.joblib
